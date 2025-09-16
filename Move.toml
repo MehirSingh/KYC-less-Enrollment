@@ -1,0 +1,15 @@
+[package]
+name = "KYC"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xfa5e811e08cdf2b70c0ed0a791b2b30135f85657c26aef2623a23bca29bcbcb6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
